@@ -24,3 +24,4 @@ for(Integer memberCode : messengerDTO.getMemberCode()) {
 result += arrayResult 는 여러번의 
 
 Required request parameter 'messengerRequestDTO' for method parameter type MessengerRequestDTO is not present
+오류 발생 @RequestBody로 요청값을 DTO에 전달해줘야하는데 @ReqeuestParams으로 실수
