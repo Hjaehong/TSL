@@ -24,7 +24,7 @@ public class BubbleSort {
 
     public static void Bubble(int[] input) {
 
-        // 배열의 길이
+        //  배열의 길이
         int length = input.length;
 
         for(int i = 0; i < length; i++) {
