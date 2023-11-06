@@ -9,13 +9,13 @@ name: Java CI with Gradle
 
 on:
   push:
-     branches: [ "main" ]
+    branches: [ "main" ]
     paths:
-    - '**.java'
+      - '**.java'
   pull_request:
     branches: [ "main" ]
     paths:
-    - '**.java'
+      - '**.java'
 
 permissions:
   contents: read
